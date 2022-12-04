@@ -1,13 +1,13 @@
 module.exports = {
 	cmdPerPage: 10, //- Number of commands per page of help command
-	adminId: "866383640648351754", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "OTE4NjEzNDU5MDIzODMxMDUx.GETVFv.J_GGapzdDXHke_FL2wfKRcyOrlCQS8Odk1k2Hs", //- Bot's Token
+	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
+	token: process.env.token || "OTE4NjEzNDU5MDIzODMxMDUx.GBQNCU.pWSuBp8gJMUQpmu5m5M2eUoQStk4sw3xYujBiE", //- Bot's Token
 	clientId: process.env.clientId || "918613459023831051", //- ID of the bot
-	clientSecret: process.env.clientSecret || "zfHTRMRjHUYQz44YO6KH46vCxWvcVb3j", //- Client Secret of the bot
+	clientSecret: process.env.clientSecret || "6O7seVe3z2EyZ7QjcS-7aD1fICJLE9Y6", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	serverDeafen: true, //- If you want bot to stay deafened
-	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
+	defaultVolume: 20, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
 	supportServer: "https://discord.gg/sbySMS7m3v", //- Support Server Link
 	Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //- Bug Report Link
 	permissions: 277083450689, //- Bot Inviting Permissions
@@ -15,7 +15,7 @@ module.exports = {
 	twentyFourSeven: false, //- When set to true, the bot will never disconnect from the voice channel
 	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
 	autoPause: false, //- When set to true, music will automatically be paused if everyone leaves the voice channel
-	debug: false, //- Debug mode
+	debug: true, //- Debug mode
 	cookieSecret: "CodingWithSudhan is epic", //- Cookie Secret
 	website: "http://localhost:4200", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
@@ -24,7 +24,7 @@ module.exports = {
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
 			host: "lavalink-replit-2.onewolfwolf.repl.co", //- The host name or IP of the lavalink server.
-			port: 443, // The port that lavalink is listening to. This must be a number!
+			port: 80, // The port that lavalink is listening to. This must be a number!
 			password: "maybeiwasboring", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
